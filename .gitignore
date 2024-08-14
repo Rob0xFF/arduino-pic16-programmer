@@ -1,2 +1,5 @@
 .kdev4/
 *.kdev4
+controller/programmer.dSYM/Contents/Info.plist
+controller/programmer.dSYM/Contents/Resources/Relocations/aarch64/programmer.yml
+controller/.DS_Store

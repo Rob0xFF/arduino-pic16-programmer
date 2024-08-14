@@ -9,7 +9,7 @@
 #include <algorithm>
 #include <cstring>
 #include <deque>
-#include <experimental/filesystem>
+#include <filesystem>
 #include <iostream>
 #include <fcntl.h>
 #include <fstream>
@@ -19,11 +19,12 @@
 #include <sys/time.h>
 #include <termios.h>
 #include <unistd.h>
+#include <sstream>
 
 #define HEX_EOF ":00000001FF"
 #define MAX_RETRIES 100
 
-namespace fs = std::experimental::filesystem;
+namespace fs = std::filesystem;
 using namespace std;
 
 const string CONFIG_WORD_START(":021FFE00");
